@@ -1,0 +1,67 @@
+---
+title             : "BUS920 Module 1"
+shorttitle        : "Module 1"
+
+author: 
+  - name          : "Stephan Fleig"
+
+
+abstract: |
+
+keywords          : "keywords"
+wordcount         : "X"
+
+bibliography      : "references.bib"
+
+floatsintext      : no
+linenumbers       : no
+draft             : no
+mask              : no
+
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+
+classoption       : "doc"
+output            : papaja::apa6_pdf
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+r_refs("references.bib")
+```
+
+# Abstract 1
+
+The following abstract is drawn from the article "Poverty and Vote Buying: Survey-Based Evidence from Africa" by Jensen and Justesen, originally published in 2012 [@Jensen.2014]:
+
+*Alongside the spread of democracy in the developing world, vote buying has emerged as an integral part of election campaigns. Yet, we know little about the causes of vote buying in young democracies. In this paper, we analyse the sources of vote buying in sub-Saharan African. Using data from the Afrobarometer, we focus on the impact of poverty on vote buying at the individual- and country-level. Results from multilevel regressions show that poor voters are significantly more likely to be targets of vote buying than wealthier voters. This effect increases when elections are highly competitive. Thus, micro-level poverty seems to be an important source of vote buying in Africa and has major implications for the way electoral democracy operates.*
+
+# Discussion Abstract 1
+
+# Abstract 2
+
+The following abstract is drawn from the article "Health Sector Corruption and Access to Healthcare in Africa" by Ouedraogo, Maiga, Gillanders
+and Aja-Eke, published in 2023 [@Ouedraogo.2024]:
+
+*Using Afrobarometer data, we show that respondents living in sub-national regions in which corruption in the health sector is more common are more likely to report that they have had to go without medical care for themselves or their family regularly or lack access entirely. We also show that corruption in other aspects of the public administration is not significantly associated with access to health care, suggesting that when it comes to improving access to healthcare, fighting medical corruption is of primary importance. For those who have accessed medical care, the regional incidence of medical corruption predicts more difficulty in terms of obtaining the care that they needed. We conclude that medical corruption not only restricts access to medical care, but also degrades the quality of the service for those able to access the system.*
+
+# Discussion Abstract 2
+
+
+
+# Draft Abstract Proposal
+
+# Reflection
+
+
+
+
+\newpage
+
+
+
+# References
+
+::: {#refs custom-style="Bibliography"}
+:::
